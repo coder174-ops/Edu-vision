@@ -7,12 +7,13 @@ import Footer from './components/Footer/Footer'
 import About from './components/About_us/About'
 
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
 
   return (
     <div>
-    
+      <Navbar/>
        <About/>
       <Service  services={servicesData}/>
       <Contact/>
