@@ -51,7 +51,9 @@ nav {
       font-size: 16px;
     }
   }
-  /* Responsive media query code for small screen */
+ 
+
+
   @media (max-width: 890px) {
     .checkbtn {
       display: block;
@@ -87,8 +89,9 @@ nav {
     }
   }
 
-  section {
-    background: url("./images/bg2.jpg") no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-  }
+
+
+
+
+
+  
